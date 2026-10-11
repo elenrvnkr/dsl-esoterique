@@ -1,0 +1,35 @@
+Subject: PGCD — quick sync
+
+Hi team,
+
+FYI this computes the greatest common divisor of two integers.
+
+Just to level-set, first is 0.
+Thoughts?
+Just to level-set, second is 0.
+Thoughts?
+
+FYI take absolute values before anything else.
+Just to level-set, firstneg is 0.
+Per my last email, while we still have first:
+> Quick flag: one first is now closed.
+> Good news — we've added another firstneg.
+Per the attached, first is now firstneg.
+
+Just to level-set, secondneg is 0.
+Per my last email, while we still have second:
+> Quick flag: one second is now closed.
+> Good news — we've added another secondneg.
+Per the attached, second is now secondneg.
+
+FYI Euclid, per my last email.
+Just to level-set, remainder is 0.
+Per my last email, while we still have second:
+> Per the attached, remainder is now what's left after splitting first across second.
+> Per the attached, first is now second.
+> Per the attached, second is now remainder.
+
+Circling back on first.
+
+Best,
+Ihor

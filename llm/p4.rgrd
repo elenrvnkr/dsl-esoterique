@@ -1,0 +1,27 @@
+Subject: PGCD - Re: Re: quick sync on the numbers
+
+Hi team,
+
+FYI, on lit deux entiers, un par ligne.
+Just to level-set, dividend is 0.
+Thoughts?
+Just to level-set, divisor is 0.
+Thoughts?
+Just to level-set, remainder is 0.
+
+FYI, on travaille sur les valeurs absolues.
+If we're under 0 on dividend:
+> Scaling dividend by -1.
+If we're under 0 on divisor:
+> Scaling divisor by -1.
+
+FYI, algorithme d'Euclide.
+Per my last email, while we still have divisor:
+> Per the attached, remainder is now what's left after splitting dividend across divisor.
+> Per the attached, dividend is now divisor.
+> Per the attached, divisor is now remainder.
+
+Circling back on dividend.
+
+Best,
+Ihor

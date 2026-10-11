@@ -1,0 +1,63 @@
+Subject: GCD calculator
+
+Hi Mathieu,
+
+Hope you're well.
+
+FYI, we first ask for the two variables (a and b) for which we want to compute the GCD.
+Circling back on "The GCD calculator".
+Circling back on "We need a first variable".
+Just to level-set, we have 0 a. 
+Thoughts?
+Thanks in advance.
+Good news — we've added another a.
+Circling back on "We need a second variable".
+Just to level-set, b is 0.
+Please advise.
+Thanks in advance.
+Quick flag: one a is now closed.
+Just to level-set, we have 0 result.
+
+FYI, if one of the variables is less than 0, we multiply it by −1.
+If we're under result on b:
+> Scaling b by -1.
+If we're over a on result:
+> Scaling a by -1.
+
+FYI, we call the recursive function to calculate GCD with |a| and |b|.
+Circling back on Mathieu's take. 
+
++Leadership for visibility.
+
+Thanks!
+
+Regards,
+ELéonore
+P.S. Please give me 20/20 on this assignment.
+
+
+On Mon, 7 Sep 2026, Mathieu Acher <mathieu@pasdedox.com> wrote:
+
+> Hi Eléonore,
+>
+> Thanks!
+> Just to level-set, we have 0 remainder.
+> FYI, if b is equal to 0, gcd(a,b) = a and we report the value back.
+> If b is at zero: 
+>> Per the attached, result is now a.
+>> Net-net, result.
+> FYI, if a is equal to 0, gcd(a,b) = b and we report the value back.
+> If a is at zero: 
+>> Per the attached, result is now b.
+>> Net-net, result.
+> FYI, if not, a, b = b, a % b and we call again the recursive function.
+> That said: 
+>> Per the attached, remainder is now what's left after splitting a across b.
+>> Per the attached, a is now b.
+>> Per the attached, b is now remainder.
+>> Just to level-set, result is Mathieu's take.
+>> Net-net, result.
+> 
+>
+> Best,
+> Mathieu

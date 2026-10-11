@@ -1,0 +1,46 @@
+Subject: PGCD — quick calc, need your eyes
+
+Hi team,
+
+FYI, on lit deux entiers sur des lignes séparées, puis on boucle tant que les deux ne sont pas égaux.
+FYI, à chaque tour on soustrait le plus petit du plus grand.
+
+Just to level-set, we have 0 first.
+Just to level-set, we have 0 second.
+
+Thoughts?
+Per the attached, first is now it.
+Thoughts?
+Per the attached, second is now it.
+
+Per my last email, while we're over 0 on second:
+> If we're over 0 on first:
+> > If we're over first on second:
+> > > Backing first out of second.
+> > That said, if we're over second on first:
+> > > Backing second out of first.
+> > That said:
+> > > first is off the table.
+> > > second is off the table.
+> That said:
+> > first is off the table.
+
+Per my last email, while we're over 0 on first:
+> If we're over 0 on second:
+> > If we're over second on first:
+> > > Backing second out of first.
+> > That said, if we're over first on second:
+> > > Backing first out of second.
+> > That said:
+> > > first is off the table.
+> > > second is off the table.
+> That said:
+> > second is off the table.
+
+If we're over 0 on first:
+> Circling back on first.
+That said:
+> Circling back on second.
+
+Best,
+Ihor

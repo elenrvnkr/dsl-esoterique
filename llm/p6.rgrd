@@ -1,0 +1,22 @@
+# Lecture des deux entrées
+in
+abs
+in
+abs
+
+# Boucle d'Euclide : tant que B != 0, faire (A, B) = (B, A % B)
+:loop
+dup
+0 ==
+? :end :continue
+
+:continue
+swap
+over
+%
+:loop jmp
+
+# Finalisation : affichage du résultat
+:end
+drop
+out
